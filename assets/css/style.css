@@ -1,0 +1,146 @@
+*{
+  margin:0px;
+  padding:0px;
+ /* margin-right: -1px; */
+}
+
+html, body{
+  height: 100%;
+}
+body{
+  padding-top: 55px;
+}
+
+.nav-bg{
+  opacity: 88%;
+  background-color: black;
+}
+.contact-bg{
+  background-color: #cfcdcd72;
+  border-radius: 15px;
+}
+.hamburger{
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.cover{
+  height: 100%;
+  width: auto;
+  background-image: url("./../img/photo16.jpeg");
+  background-position:69%;
+  background-size:cover;
+  background-repeat: no-repeat;
+ 
+  }
+  .cover-gradient{
+    height: 100%;
+    background: linear-gradient(45deg, #000000e1 , #000000ad , #0000001f);
+   
+
+  }
+.profile-img{
+  
+  height: 200px;
+  width:200px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 100%;
+  box-shadow: 10px 10px 14px rgba(0,0,0,0.25);
+  }
+.image-profile-container{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-image{
+  height:100%;
+  margin-left: 15px;
+  margin-right: 15px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-image-1{
+  text-align: center;
+}
+.text-image-2{
+  text-align: center;
+  
+}
+
+footer{
+  background-color: black;
+ 
+}
+.footer-link-item{
+  color:white;
+  
+}
+
+.cv-card{
+  padding-top: 10px;
+  }
+
+.about-me{
+  margin-top: 20px;
+  border-radius: 15px;
+   
+}
+
+.project{
+  margin-top: 70px;
+  margin-bottom: 120px;
+}
+.title-project{
+  margin-bottom: 0px;
+}
+
+.service-icon-container{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.service-icon{
+  padding: 0px;
+  margin: 0px;
+  background-color: #dc3545;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {  /*desktop media query*/
+  
+
+  .nav-bg{
+    opacity: 92%;
+  }
+  .cover-gradient{
+    background: linear-gradient(45deg, #000000 , #000000bb , #0000001f);
+  }
+    .text-image{
+      margin-right: 500px;
+      
+    }
+    
+    .title-project{
+      margin-bottom:60px;
+      
+    }
+    .cover{
+      background-position: 0px 0px;
+      
+    }
+
+}
+
+ 

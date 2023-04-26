@@ -12,7 +12,7 @@ body{
 }
 
 .nav-bg{
-  opacity: 88%;
+  opacity: 85%;
   background-color: black;
 }
 .contact-bg{
@@ -142,7 +142,7 @@ ul{
   
 
   .nav-bg{
-    opacity: 92%;
+    opacity: 95%;
   }
   .cover-gradient{
     background: linear-gradient(45deg, #000000eb , #0000007b , #0000001f);

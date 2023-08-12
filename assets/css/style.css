@@ -53,6 +53,12 @@ body{
   justify-content: center;
 }
 
+.icon{
+  height: 56px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
 .text-image{
   height:100%;
   margin-left: 15px;

@@ -123,6 +123,10 @@ footer{
   color:white;
   
 }
+
+.d-none{
+  visibility: hidden;
+}
 @media screen and (min-width: 992px) {  /*desktop media query*/
   
   .left-section{
